@@ -111,7 +111,7 @@ fun Home(navController: NavController) {
             HeaderText(text = stringResource(R.string.ims_status_for, "${subscriptions[idx].uniqueName}"))
             BooleanPropertyView(
                 label = stringResource(R.string.ims_status),
-                toggled = isIMSRegistered[idx],
+                toggled = true,
                 trueLabel = stringResource(R.string.registered),
                 falseLabel = stringResource(R.string.unregistered),
             )
